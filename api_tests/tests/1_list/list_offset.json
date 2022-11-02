@@ -1,0 +1,37 @@
+{
+  "url": "/api/movie.list",
+  "body": {
+    "page_size": 10,
+    "offset": 90
+  },
+  "method": "post",
+  "status": 200,
+  "response": {
+    "movies": [
+      {
+        "title": "The Dude in Me"
+      },
+      {
+        "title": "The Dude in My Room"
+      },
+      {
+        "title": "The Fall Dude"
+      },
+      {
+        "title": "The Fighting Dude"
+      },
+      {
+        "title": "The Healing Powers of Dude"
+      },
+      {
+        "title": "The Little Kung Fu Dude"
+      },
+      {
+        "title": "Uhh Yeah Dude"
+      },
+      {
+        "title": "Vote, Dude!"
+      }
+    ]
+  }
+}

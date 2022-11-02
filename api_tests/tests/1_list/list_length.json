@@ -1,0 +1,12 @@
+{
+  "url": "/api/movie.list",
+  "body": {
+    "page_size": 1000,
+    "offset": 0
+  },
+  "method": "post",
+  "status": 200,
+  "response": {
+    "movies": "$len 100"
+  }
+}

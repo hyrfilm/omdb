@@ -1,0 +1,11 @@
+{
+  "url": "/api/movie.get",
+  "body": {
+    "imdb_id": "tt0242423"
+  },
+  "method": "post",
+  "status": 200,
+  "response": {
+    "title": "Dude, Where's My Car?"
+  }
+}

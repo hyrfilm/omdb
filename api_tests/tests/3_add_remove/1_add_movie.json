@@ -1,0 +1,13 @@
+{
+  "url": "/api/movie.add",
+  "body": {
+    "title": "A Clockwork Orange"
+  },
+  "method": "post",
+  "status": 200,
+  "response": {
+    "title": "A Clockwork Orange",
+    "year": "1971",
+    "plot": "$contains future"
+  }
+}

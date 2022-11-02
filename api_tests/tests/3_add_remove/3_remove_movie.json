@@ -1,0 +1,12 @@
+{
+  "url": "/api/movie.remove",
+  "headers": {"authorization": "<access_token.txt>"},
+  "body": {
+    "imdb_id": "tt0066921"
+  },
+  "method": "post",
+  "status": 200,
+  "response": {
+    "deleted": true
+  }
+}

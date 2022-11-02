@@ -1,0 +1,12 @@
+{
+  "url": "/api/user.login",
+  "body": {
+    "email": "test@example.com",
+    "password": "test"
+  },
+  "response": {
+    "access_token": "$write_file access_token.txt"
+  },
+  "method": "post",
+  "status": 200
+}

@@ -1,0 +1,8 @@
+{
+  "url": "/api/movie.get",
+  "body": {
+    "imdb_id": "this is not a imdb id"
+  },
+  "method": "post",
+  "status": 400
+}

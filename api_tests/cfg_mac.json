@@ -1,0 +1,8 @@
+{
+    "tests": "./tests",
+    "ext": ".json",
+    "base_url": "http://host.docker.internal:8000",
+    "log_level": 20,
+    "brace_expansion": true,
+    "match_subsets": true
+}

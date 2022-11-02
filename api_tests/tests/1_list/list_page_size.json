@@ -1,0 +1,34 @@
+{
+  "url": "/api/movie.list",
+  "body": {
+    "page_size": 50,
+    "offset": 0
+  },
+  "method": "post",
+  "status": 200,
+  "response": {
+    "movies": [
+      {
+        "title": "Dude, Where's My Cat?",
+        "country": "Canada",
+        "imdb_id": "tt11877326"
+      },
+      {
+        "title": "Dude",
+        "imdb_id": "tt3458510",
+        "director": "Olivia Milch",
+        "year": "2018",
+        "genre": "Comedy, Drama"
+      },
+      {
+        "plot": "$contains car",
+        "title": "Dude, Where's My Car?",
+        "country": "United States",
+        "imdb_id": "tt0242423",
+        "actors": "$contains Kutcher",
+        "year": "2000",
+        "genre": "$contains Comedy"
+      }
+    ]
+  }
+}
