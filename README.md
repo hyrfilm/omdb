@@ -1,4 +1,4 @@
-## Running the project:
+## omdb:
 
 This project implements a basic movie database in python.
 When started it is seeded by 100 movies from OMDB that contains "dude" in the title.
