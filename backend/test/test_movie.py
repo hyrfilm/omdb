@@ -3,7 +3,7 @@ from backend.movie import Movie
 from backend.util.movie_fetcher import fetch_movies
 
 
-class TestUser(test.TestCase):
+class TestMovie(test.TestCase):
     def test_create(self):
         # TODO: In an "real" unit-test we wouldn't want to fetch from an external API
         # TODO: But then again, the tendency to over-rely on mocking has some serious drawbacks as well
